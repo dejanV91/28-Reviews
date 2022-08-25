@@ -1,55 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ES6 Slider</title>
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <article class="center-div">
+        <div class="review-title">
+            <h2><span>/</span>review</h2>
+        </div>
+        <div class="main-content">
+            <div class="container">
 
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="styles.css" />
-    </head>
-
-    <body>
-        <section class="slider">
-            <div class="reviews">
-                <h2><span>/</span>reviews</h2>
+                <!-- single article -->
+                <!-- <article class="content-center">
+                    <div class="image-div">
+                        <img src="https://res.cloudinary.com/diqqf3eq2/image/upload/c_scale,w_200/v1595959121/person-1_aufeoq.jpg" alt="image">
+                    </div>
+                    <h4 class="name-person">djena vfhfhfsf</h4>
+                    <h4 class="jobs-div">product manager</h4>
+                    <p class="text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo doloremque suscipit deleniti fuga dolore, beatae voluptate sapiente itaque dicta dolor!
+                    </p>
+                    <div class="icon-section">
+                        <span class="material-symbols-outlined">format_quote</span>
+                    </div>
+                </article> -->
+                <!-- end single article -->
+              
             </div>
-            <div class="slide-container">
-        <!-- <article class="slide">
-          <img
-            src="https://res.cloudinary.com/diqqf3eq2/image/upload/c_scale,w_200/v1595959121/person-1_aufeoq.jpg"
-            class="img"
-            alt="peter doe"
-          />
-          <h4>peter doe</h4>
-          <p class="title">product designer</p>
-          <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quo
-            eius recusandae officia voluptas sint deserunt dicta nihil nam
-            omnis?
-          </p>
-          <div class="quote-icon">
-            <i class="fas fa-quote-right"></i>
-          </div>
-        </article> -->
-            </div>
-      <!-- buttons -->
-      <!-- prev btn -->
-            <button class="btn prev-btn">
-                <i class="fas fa-chevron-left"></i>
+            <button class="btn previous">
+                <span id="previous" class="material-symbols-outlined">arrow_back_ios</span>
             </button>
-      <!-- next button -->
-            <button class="btn next-btn">
-                <i class="fas fa-chevron-right"></i>
+            <button class="btn next">
+                <span id="next" class="material-symbols-outlined">arrow_forward_ios</span>
             </button>
-        </section>
-        <script type="module" src="app.js"></script>
-     </body>
+        </div>
+    </article>
+    <script type="module" src="app.js"></script>
+</body>
 </html>
-
