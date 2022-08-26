@@ -1,9 +1,17 @@
 import people from "./data.js";
 
 const container = document.querySelector(".container");
+const slider = document.querySelector(".slider");
 const nextBtn = document.getElementById("next");
 const previousBtn = document.getElementById("previous");
-container.innerHTML = people
+
+// if has 1 review
+if (people.length === 1) {
+    nextBtn.parentNode.style.display = "none";
+    previousBtn.parentNode.style.display = "none";
+}
+
+slider.innerHTML = people
     .map((item) => {
         const {img, name, job, text} = item;
         return `<article class="content-center">
@@ -19,7 +27,7 @@ container.innerHTML = people
                 </article>`
     }).join("");
 
-    nextBtn.addEventListener("click", () => {
-        container.style.transform = "translateX(-50%)";
-    });
+nextBtn.addEventListener("click", () => {
+    slider.style.transform = "translateX(-100%)";
+});
 

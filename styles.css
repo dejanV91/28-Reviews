@@ -55,29 +55,32 @@ body{
 .main-content{
     display: flex;
     flex-direction: row;
-    height: 450px;
+    min-height: 500px;
 }
 
 .container{
     order: 2;
     position: relative;
     width: 100%;
-    display: flex;
-    flex-direction: row;
     overflow: hidden;
     min-height: 100%;
-    
+}
+
+.slider{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    transition: var(--transition);
 }
 
 .content-center{
-    position: absolute;
     min-width: 100%;
     min-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transition: var(--transition);
 }
 
 .previous{
