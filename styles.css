@@ -157,11 +157,11 @@ body{
     opacity: 1;
 }
 .next{
-    transform: translateX(-100%);
+    transform: translateX(100%);
     opacity: 0;
 }
 .last{
-    transform: translateX(100%);
+    transform: translateX(-100%);
     opacity: 0;
 }
 
