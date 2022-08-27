@@ -4,14 +4,14 @@ const people = [
         "https://res.cloudinary.com/diqqf3eq2/image/upload/c_scale,w_200/v1595959121/person-1_aufeoq.jpg",
       name: "peter doe",
       job: "product manager",
-      text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quoeius recusandae officia voluptas sint deserunt dicta nihil nam omnis? `,
+      text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio assumenda tempora laboriosam blanditiis in, autem quaerat deleniti itaque dolores, natus ratione a quas vitae id maiores, ullam earum molestias?`,
     },
     {
       img:
         "https://res.cloudinary.com/diqqf3eq2/image/upload/c_scale,w_200/v1595959131/person-2_ipcjws.jpg",
       name: "susan doe",
       job: "developer",
-      text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quoeius recusandae officia voluptas sint deserunt dicta nihil nam omnis?`,
+      text:  `Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque asperiores quod, perferendis soluta vitae deleniti perspiciatis iure? Quaerat, incidunt assumenda! Beatae, similique a.`
     },
     {
       img:

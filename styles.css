@@ -67,27 +67,28 @@ body{
 }
 
 .slider{
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: row;
     width: 100%;
-    transition: var(--transition);
 }
 
 .content-center{
+    position: absolute;
     min-width: 100%;
     min-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: var(--transition);
 }
 
 .previous{
     order: 1;
 }
 
-.next{
+.nextBtn{
     order: 3;
 }
 
@@ -150,3 +151,17 @@ body{
     font-size: 8rem;
     color: var(--slash);
 }
+
+.active{
+    transform: translateX(0);
+    opacity: 1;
+}
+.next{
+    transform: translateX(-100%);
+    opacity: 0;
+}
+.last{
+    transform: translateX(100%);
+    opacity: 0;
+}
+
